@@ -1,24 +1,24 @@
 function Login() {
   event.preventDefault();
-  let username = document.getElementById("email").value;
+  let acc = JSON.parse(localStorage.getItem("users")) || [];
+  let email = document.getElementById("email").value;
   let pass = document.getElementById("password").value;
-  let data = JSON.parse(localStorage.getItem("username"));
-  let users = null;
+  let users;
 
-  for (let i = 0; i < data.length; i++) {
-    const currentUser = data[i];
-    if (username === currentUser.email && pass === currentUser.password) {
-      users = currentUser;
-      break;
+  for (let i in acc) {
+    if (acc[i].email === email && acc[i].password === pass) {
+      users = acc[i];
     }
   }
+
   if (users) {
-    localStorage.setItem("LoggedInUser", username);
+    localStorage.setItem("LoggedInUser", email);
     window.location = "../index.html";
   } else {
     alert("Sai tài khoản hoặc mật khẩu!!!");
+    return;
   }
-  CheckIfLoggedIn();
+  // CheckIfLoggedIn();
 }
 
 function CheckIfLoggedIn() {

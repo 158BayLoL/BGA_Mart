@@ -11,7 +11,7 @@ body {
 }
 
 .top-menu {
-  background-color: black;
+  background-color: #001F3F;
   display: grid;
   color: #fff;
   grid-template-columns: auto auto auto;
@@ -19,6 +19,9 @@ body {
   grid-row-gap: 1em;
   padding: 14px 64px;
   margin-bottom: 36px;
+  box-shadow: 0px 5px 10px gray;
+  position: sticky;
+  top: 0px
 }
 
 .top-menu > .navigation {
