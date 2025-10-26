@@ -28,61 +28,6 @@ const ShopItemsData = [
     image: "../img/Nước ngọt vị chanh Sprite 1.5l.jpg",
   },
 
-  {
-    id: 5,
-    name: "Hộp bánh Chocopie đậm vị cacao 360g",
-    price: 60000,
-    image: "../img/Hộp bánh Chocopie đậm vị cacao 360g.png",
-  },
-
-  {
-    id: 6,
-    name: "Hộp bánh xốp Nabati nhân Chocolate 300g",
-    price: 780000,
-    image: "../img/Hộp bánh xốp Nabati nhân Chocolate 300g.jpg",
-  },
-
-  {
-    id: 7,
-    name: "Snack khoai tây Lay's vị Phở bò Hà Nội 88g",
-    price: 780000,
-    image: "../img/Snack khoai tây Lay's vị Phở bò Hà Nội 88g.png",
-  },
-
-  {
-    id: 8,
-    name: "Snack khoai tây Lay's vị tự nhiên 150g",
-    price: 780000,
-    image: "../img/Snack khoai tây Lay's vị tự nhiên 150g.jpg",
-  },
-
-  {
-    id: 9,
-    name: "Gói dao cạo râu Gillette Blue 2 Flexi 10+5 cái",
-    price: 780000,
-    image: "../img/Gói dao cạo râu Gillette Blue 2 Flexi 10+5 cái.jpg",
-  },
-
-  {
-    id: 10,
-    name: "Nước khoáng thiên nhiên Lavie 500ml",
-    price: 780000,
-    image: "../img/Nước khoáng thiên nhiên Lavie 500ml.png",
-  },
-
-  {
-    id: 11,
-    name: "Nước khoáng thiên nhiên Lavie 500ml",
-    price: 780000,
-    image: "../img/Nước khoáng thiên nhiên Lavie 500ml.png",
-  },
-
-  {
-    id: 12,
-    name: "Nước khoáng thiên nhiên Lavie 500ml",
-    price: 780000,
-    image: "../img/Nước khoáng thiên nhiên Lavie 500ml.png",
-  },
 
 
 ];

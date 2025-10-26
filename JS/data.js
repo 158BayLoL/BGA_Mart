@@ -38,53 +38,37 @@ const ShopItemsData = [
   {
     id: 6,
     name: "Hộp bánh xốp Nabati nhân Chocolate 300g",
-    price: 780000,
+    price: 40000,
     image: "../img/Hộp bánh xốp Nabati nhân Chocolate 300g.jpg",
   },
 
   {
     id: 7,
     name: "Snack khoai tây Lay's vị Phở bò Hà Nội 88g",
-    price: 780000,
+    price: 10000,
     image: "../img/Snack khoai tây Lay's vị Phở bò Hà Nội 88g.png",
   },
 
   {
     id: 8,
     name: "Snack khoai tây Lay's vị tự nhiên 150g",
-    price: 780000,
+    price: 20000,
     image: "../img/Snack khoai tây Lay's vị tự nhiên 150g.jpg",
   },
 
   {
     id: 9,
     name: "Gói dao cạo râu Gillette Blue 2 Flexi 10+5 cái",
-    price: 780000,
+    price: 84000,
     image: "../img/Gói dao cạo râu Gillette Blue 2 Flexi 10+5 cái.jpg",
   },
 
   {
     id: 10,
-    name: "Nước khoáng thiên nhiên Lavie 500ml",
-    price: 780000,
-    image: "../img/Nước khoáng thiên nhiên Lavie 500ml.png",
+    name: "Dầu gội sạch gàu Head & Shoulders bạc hà mát rượi 625ml",
+    price: 90000,
+    image: "../img/Dầu gội sạch gàu Head & Shoulders bạc hà mát rượi 625ml.jpg",
   },
-
-  {
-    id: 11,
-    name: "Nước khoáng thiên nhiên Lavie 500ml",
-    price: 780000,
-    image: "../img/Nước khoáng thiên nhiên Lavie 500ml.png",
-  },
-
-  {
-    id: 12,
-    name: "Nước khoáng thiên nhiên Lavie 500ml",
-    price: 780000,
-    image: "../img/Nước khoáng thiên nhiên Lavie 500ml.png",
-  },
-
-
 ];
 
 function convertVND(money) {
