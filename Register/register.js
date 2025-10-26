@@ -68,7 +68,7 @@ function Register() {
       });
       localStorage.setItem("users", JSON.stringify(acc));
       alert("Đăng ký thành công!!!");
-      window.location.href = "../Login/login.html";
+      window.location.href = "../login/login.html";
     }
   }
 }
